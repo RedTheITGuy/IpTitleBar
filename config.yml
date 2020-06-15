@@ -1,0 +1,24 @@
+# IP Bar configuration
+#
+# colourPrefix: The CHARACTER the precedes colour codes (E.g. Essentials uses &)
+# barColour: The colour of the bar (must be a valid bar colour, see https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html)
+# barStyle: The style of the bar (must be a valid bar style, see https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html)
+# prefix: The text that comes before the ip on the bar
+# ip: The default ip of the server (can be changed using /changeip)
+# message: The message before the ip for the /ip command (doesn't need a trailing space)
+# hover: The text displayed when the user hovers over the text from the /ip command
+#
+# Stings in the text section can use formating codes
+# The prefix for these codes can be changed with colourPrefix (see above)
+# For codes when usign &, see http://ess.khhq.net/mc/
+
+colourPrefix: '&'
+format:
+   barColour: "BLUE"
+   barStyle: "SEGMENTED_6"
+text:
+   prefix: "&bJoin now"
+   ip: "&4&lChange config"
+   ipCommand:
+      message: "The server ip is"
+      hover: "&bClick to copy the ip"

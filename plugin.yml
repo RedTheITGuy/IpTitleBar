@@ -1,0 +1,21 @@
+name: IpTitleBar
+author: Red_the_IT_Guy
+main: org.RedTheITguy.IpTitleBar.Main
+version: 2.0
+api-version: 1.13
+commands:
+   changeIP:
+      description: Change the displayed server IP
+      usage: "/changeIP <config/ip>"
+      permission: MiniStreamFormater.changeIP
+   IP:
+      description: Get the server IP
+      usage: "/ip"
+      permission: MiniStreamFormater.ip
+permissions:
+   MiniStreamFormater.changeIP:
+      description: Allows for the changing of the IP
+      default: op
+   MiniStreamFormater.ip:
+      description: Allows for the use of /ip
+      default: true
