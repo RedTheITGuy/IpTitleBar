@@ -7,15 +7,15 @@ commands:
    changeIP:
       description: Change the displayed server IP
       usage: "/changeIP <config/ip>"
-      permission: MiniStreamFormater.changeIP
+      permission: IpTitleBar.changeIP
    IP:
       description: Get the server IP
       usage: "/ip"
-      permission: MiniStreamFormater.ip
+      permission: IpTitleBar.ip
 permissions:
-   MiniStreamFormater.changeIP:
+   IpTitleBar.changeIP:
       description: Allows for the changing of the IP
       default: op
-   MiniStreamFormater.ip:
+   IpTitleBar.ip:
       description: Allows for the use of /ip
       default: true
